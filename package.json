@@ -1,0 +1,24 @@
+{
+  "name": "nationalportalnotify",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.3",
+    "nodemailer": "^8.0.9",
+    "nodemon": "^3.1.14",
+    "puppeteer": "^25.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
